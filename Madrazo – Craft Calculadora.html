@@ -13,7 +13,7 @@
   <!-- End Google Analytics -->
 
   <meta charset="UTF-8" />
-  <title>Kibera – Craft Calculadora</title>
+  <title>Cartel Kibera – Craft Calculadora</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root{
@@ -181,17 +181,17 @@
   <div class="app">
     <header class="header">
       <div class="title-block">
-        <h1><span>Kibera</span> Craft Calculadora</h1>
+        <h1><span>Cartel Kibera</span> Craft Calculadora</h1>
         <p>Calculadora de armas & materiais – usar só nas “caixas” a verde</p>
       </div>
-      <div class="tag">Kibera</div>
+      <div class="tag">Cartel Kibera</div>
     </header>
 
     <div class="grid">
       <!-- LADO ESQUERDO -->
       <section class="card">
         <h2><span>1.</span> Armas a craftar / vender</h2>
-        <p>Escreve quantas <strong>Scar-SC, G36</strong> vais craftar ou vender e, se quiseres, o preço por arma.</p>
+        <p>Escreve quantas <strong>Scar-SC, Arma-1</strong> vais craftar ou vender e, se quiseres, o preço por arma.</p>
 
         <table class="table">
           <thead>
@@ -210,10 +210,10 @@
               <td><span class="result-number" data-weapon-total="Scar-SC">0</span></td>
             </tr>
             <tr>
-              <td>G36</td>
-              <td><input class="input green" type="number" min="0" value="0" id="q-G36"></td>
-              <td><input class="input green" type="number" min="0" step="0.01" value="0" id="price-G36"></td>
-              <td><span class="result-number" data-weapon-total="G36">0</span></td>
+              <td>Arma-1</td>
+              <td><input class="input green" type="number" min="0" value="0" id="q-Arma-1"></td>
+              <td><input class="input green" type="number" min="0" step="0.01" value="0" id="price-Arma-1"></td>
+              <td><span class="result-number" data-weapon-total="Arma-1">0</span></td>
             </tr>
           </tbody>
           <tfoot>
@@ -375,7 +375,7 @@
 
     const weaponParts = {
       "Scar-SC": { Ferro:1, Gatilho:1, Mola:2, Engrenagem:2, Cano:1, Corp:1 },
-      "G36":     { Ferro:1, Gatilho:1, Mola:2, Engrenagem:2, Cano:1, Corp:1 },
+      "Arma-1":     { Ferro:1, Gatilho:1, Mola:2, Engrenagem:2, Cano:1, Corp:1 },
     };
 
     function pepitasToBars(material, pepitas){
